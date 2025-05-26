@@ -1,0 +1,92 @@
+# Numerical Optimization Project .gitignore
+# Keep only essential files as per assignment requirements
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Generated plots and images (these are outputs, not source)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Generated reports and documents (outputs, not source)
+*.pdf
+*.docx
+*.pages
+*.doc
+*.rtf
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Generated files from report generators
+generate_concise_report.py
+generate_docx_report.py
+generate_final_results_report.py
+generate_pages_report.py
+generate_report.py
+run_final_results_only.py
+guide.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Keep only essential project files:
+# - src/ directory with core implementation
+# - tests/ directory with test files  
+# - README.md
+# - requirements.txt
+# - This .gitignore file
