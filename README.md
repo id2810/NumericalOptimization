@@ -16,7 +16,6 @@ numOptCluade/
 │   └── test_unconstrained_min.py # Unit tests
 ├── requirements.txt            # Python dependencies
 ├── run_tests.py               # Test runner script
-├── guide.txt                  # Assignment instructions
 └── README.md                  # This file
 ```
 
@@ -88,15 +87,3 @@ The code follows object-oriented design with clean separation of concerns:
 - Robust handling of singular Hessians in Newton's method
 - Comprehensive visualization utilities
 
-## Requirements Fulfilled
-
-✅ Project organization (src/, tests/ directories)  
-✅ Line search minimization with GD and Newton methods  
-✅ Proper termination criteria (objective, parameter, Newton decrement)  
-✅ Console reporting of iterations  
-✅ Path storage for visualization  
-✅ All required test functions implemented  
-✅ Contour plotting with optimization paths  
-✅ Function value convergence plots  
-✅ unittest framework integration  
-✅ Specified parameters and tolerances
